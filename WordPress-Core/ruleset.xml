@@ -76,7 +76,7 @@
 	<!-- Implied through the examples: align the assignment operator in a block of assignments. -->
 	<rule ref="Generic.Formatting.MultipleStatementAlignment">
 		<properties>
-			<property name="maxPadding" value="40"/>
+			<property name="maxPadding" value="0"/>
 		</properties>
 	</rule>
 
