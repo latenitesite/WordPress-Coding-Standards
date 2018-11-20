@@ -39,7 +39,7 @@
 			<property name="exact" value="false"/>
 			<property name="indent" value="4"/>
 			<property name="tabIndent" value="true"/>
-			<property name="ignoreIndentationTokens" type="array" value="T_HEREDOC,T_NOWDOC,T_INLINE_HTML"/>
+			<property name="ignoreIndentationTokens" type="array" value="T_HEREDOC,T_NOWDOC,T_INLINE_HTML,T_IF,T_VARIABLE,T_RETURN,T_COMMENT"/>
 		</properties>
 	</rule>
 	<rule ref="WordPress.Arrays.ArrayIndentation"/>
@@ -75,7 +75,7 @@
 	<rule ref="WordPress.WhiteSpace.DisallowInlineTabs"/>
 
 	<!-- Implied through the examples: align the assignment operator in a block of assignments. -->
-	<rule ref="Generic.Formatting.MultipleStatementAlignment">
+	<rule ref="WordPress.Formatting.MultipleStatementAlignment">
 		<properties>
 			<property name="maxPadding" value="40"/>
 		</properties>
