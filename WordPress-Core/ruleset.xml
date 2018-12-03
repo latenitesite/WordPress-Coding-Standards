@@ -39,7 +39,7 @@
 			<property name="exact" value="false"/>
 			<property name="indent" value="4"/>
 			<property name="tabIndent" value="true"/>
-			<property name="ignoreIndentationTokens" type="array" value="T_HEREDOC,T_NOWDOC,T_INLINE_HTML,T_IF,T_VARIABLE,T_RETURN,T_COMMENT,T_WHILE,T_FOREACH,T_SWITCH"/>
+			<property name="ignoreIndentationTokens" type="array" value="T_HEREDOC,T_NOWDOC,T_INLINE_HTML,T_IF,T_VARIABLE,T_RETURN,T_COMMENT,T_WHILE,T_FOREACH,T_SWITCH,T_CASE"/>
 		</properties>
 	</rule>
 	<rule ref="WordPress.Arrays.ArrayIndentation"/>
