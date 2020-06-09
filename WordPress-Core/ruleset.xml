@@ -113,7 +113,7 @@
 	Ref: https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/#declaring-arrays
 	#############################################################################
 	-->
-	<!-- Covers rule: Arrays must be declared using long array syntax. -->
+	<!-- Covers rule: Arrays must be declared using short array syntax. -->
 	<rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
 
 
